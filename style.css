@@ -106,4 +106,16 @@ body {
     width: 800px;
     margin: 0 auto;
   }
-  
+  .select   {
+    color:#959393;
+    width: 342px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #cecdcd;
+    margin-top: 5px;
+  }
+  .form {
+    width: 300px;
+    margin-top: 5px;
+
+  }
