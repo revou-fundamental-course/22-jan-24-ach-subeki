@@ -43,7 +43,7 @@ body {
   
   .hero {
     background-color: #ffffff;
-    padding: 50px 0;
+    padding: 10px 0;
     text-align: center;
   }
   
@@ -88,9 +88,10 @@ body {
   }
   .konten   {
     width: 530px;
-    height: 400px;
+    height: 700px;
     border-radius: 8px;
     padding-top: 0px;
+    
   }
   .isi-konten {
     background-color: #e3e3e3;
@@ -100,7 +101,7 @@ body {
   }
   .img-konten {
     width: 520px;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   .flex-konten  {
     display: flex;
@@ -113,6 +114,33 @@ body {
     padding-bottom: 10px;
     font-style: italic;
     font-size: 15px;
+  }
+  .footer-konten  {
+    background-color: #e3e3e3;
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 79px;
+  }
+  .benefit-a  {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    
+  }
+  table {
+   
+    width: 300px;
+    margin-left: 15px;
+    
+  }
+  .nomer  {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 30px;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: ;
   }
   
   .contact {
