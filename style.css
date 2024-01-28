@@ -8,16 +8,19 @@
     border-radius: 0px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 15px;
   }
   body  {
     background-color: #ccc;
-  }
+    margin-top: 10px;
+    }
   .border {
     border: 0px solid #959393;
     border-radius: 8px;
     width: 820px;
     margin: 0 auto;
     background-color: #ffffff;
+    
   }
   header {
     width: 100%;
@@ -29,20 +32,27 @@
   
   .logo {
     height: 40px;
-    margin-top: 6px;
+    margin-top: 0px;
   }
   
   .nav {
     display: flex;
     align-items: center;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    height: 20px;
 
   }
-  .nav-btn  {
-    align-items: center;
+  .nav-btn-  {
+    height: 20px;
     border: 1px solid #333;
-    border-radius: 4px;
     padding: 10px;
-    margin: 1px;
+  }
+  .nav-btn  {
+    height: 20px;
+    border: 0px solid #333;
+    padding: 10px;
   }
   
   a {
