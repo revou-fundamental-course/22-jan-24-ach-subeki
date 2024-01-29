@@ -171,6 +171,7 @@ li {
   margin-top: 1px;
   margin-bottom: 1px;
   font-weight: 550;
+  font-family: sans-serif;
 }
 
 .pekerjaan {
@@ -197,10 +198,9 @@ li {
 
 .your {
   font-size: small;
-
 }
 
-table {
+.table- {
   border: 0px solid;
   width: 300px;
   margin-left: 15px;
@@ -310,4 +310,37 @@ footer {
   width: 300px;
   margin-top: 5px;
 
+}
+
+.ngisor {
+  font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+.ngisor-a {
+  font-weight: 700;
+  height: 5px;
+  padding: 0px;
+  margin: 0px;
+
+}
+.ngisor-b {
+  font-size: small;
+  height: px;
+ 
+}
+.foto-bunder-ngisor {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+
+}
+.table-1 {
+  border: 0px solid;
+  width: 250px;
+  margin-left: 15px;
 }
