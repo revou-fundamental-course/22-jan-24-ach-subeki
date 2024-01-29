@@ -1,279 +1,313 @@
-
 .body {
-    font-family: sans-serif;
-    color: #333;
-    width: 800px;
-    margin: 0 auto;
-    border: 0px solid #959393;
-    border-radius: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 15px;
-  }
-  body  {
-    background-color: #ccc;
-    margin-top: 10px;
-    }
-  .border {
-    border: 0px solid #959393;
-    border-radius: 8px;
-    width: 820px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    
-  }
-  header {
-    width: 100%;
-    height: 50px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .logo {
-    height: 40px;
-    margin-top: 0px;
-  }
-  
-  .nav {
-    display: flex;
-    align-items: center;
-    border: 1px solid;
-    border-radius: 8px;
-    padding: 10px;
-    height: 20px;
+  font-family: sans-serif;
+  color: #333;
+  width: 800px;
+  margin: 0 auto;
+  border: 0px solid #959393;
+  border-radius: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
 
-  }
-  .nav-btn-  {
-    height: 20px;
-    border: 1px solid #333;
-    padding: 10px;
-  }
-  .nav-btn  {
-    height: 20px;
-    border: 0px solid #333;
-    padding: 10px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-  }
-  
-  .hero {
-    background-color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 36px;
-    font-weight: bold;
-    margin: 170px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 16px;
-  }
-  
-  a.learn-more {
-    background-color: #000;
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  .features {
-    background-color: #ffffff;
-    padding: 50px 0;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }
-  .center   {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-  }
-  .konten   {
-    width: 530px;
-    height: 700px;
-    border-radius: 8px;
-    padding-top: 0px;
-    
-  }
-  .isi-konten {
-    background-color: #e3e3e3;
-    height: 310px;
-    border-radius: 8px;
-    padding-top: 5px;
-  }
-  .img-konten {
-    width: 520px;
-    border-radius: 5px;
-  }
-  .flex-konten  {
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-  }
-  .text-konten  {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    font-style: italic;
-    font-size: 15px;
-  }
-  .footer-konten  {
-    background-color: #e3e3e3;
-    margin-top: 10px;
-    border-radius: 8px;
-    height: 60px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-  }
-  .foto-bunder  {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-  }
-  .biodata- {
-    border: 0px solid;
-    width:200px;
-  }
-  .owner  {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    font-weight: 550;
-  }
-  .pekerjaan  {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    font-size: smaller;
-    font-style: italic;
-  }
-  .border- {
-    border: 0px solid;
-    width: 40px;
-  }
-  .benefit-a  {
-    margin-top: 80px;
-    margin-bottom: 10px;
-    
-  }
-  table {
-   border: 0px solid;
-    width: 300px;
-    margin-left: 15px;
-    
-  }
-  .nomer  {
-    width: 40px;
-    height: 40px;
-    background-color: #ccc;
-    border-radius: 30px;
-    text-align: center;
-    font-size: large;
-    font-weight: 700;
-    margin-bottom: ;
-  }
-  
-  .contact {
-    padding-left: 10px;
-    padding-top: 5px;
-    border: 0px solid #333;
-    width: 250px;
-    height: 400px;
-    border-radius: 8px;
-    background-color: #e3e3e3;
-    
-  }
-  .contact-us   {
-    padding-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 1px;
-  }
-  .contact-ket  {
-    font-size: smaller;
-    padding-left: 5px;
-    padding-right: 15px;
-    margin-top: 1px;
-    text-align: justify;
-    padding-top: 1px;
-    padding-bottom: 50px;
-  }
-  .biodata {
-    margin-top: 10px;
-    margin-bottom: 1px;
-    padding-left: 5px;
-    font-size: small;
-    font-weight: 550;
-  }
-   
-  .input {
-    width: 200px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 3px solid #ccc;
-  }
-  .select   {
-    color:#959393;
-    width: 245px;
-    height: 40px;
-    border: 3px solid #ccc;
-    border-radius: 5px;
-    border-color: #cecdcd;
-    margin-top: 5px;
-    padding-left: 15px;
-  }  
-  button {
-    background-color: #000;
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    width: 240px;
-    margin-top: 10px;
-  }
-  .our {
-    width: 800px;
-    height: 100px;
-    background-color: #ccc;
-    margin: 0 auto;
-    border: 0px solid #959393;
-    border-radius: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 40px;
-    text-align: center;
-    font-size: 30pt;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+body {
+  background-color: #ccc;
+  margin-top: 10px;
+}
 
-  }
-  
+.border {
+  border: 0px solid #959393;
+  border-radius: 8px;
+  width: 820px;
+  margin: 0 auto;
+  background-color: #ffffff;
 
-  
-  footer {
-    background-color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-  }
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 0px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 10px;
+  height: 20px;
+
+}
+
+.nav-btn- {
+  height: 20px;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.nav-btn {
+  height: 20px;
+  border: 0px solid #333;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.hero {
+  background-color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 170px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a.learn-more {
+  background-color: #000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.features {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.konten {
+  width: 530px;
+  height: 700px;
+  border-radius: 8px;
+  padding-top: 0px;
+
+}
+
+.isi-konten {
+  background-color: #e3e3e3;
+  height: 310px;
+  border-radius: 8px;
+  padding-top: 5px;
+}
+
+.img-konten {
+  width: 520px;
+  border-radius: 5px;
+}
+
+.flex-konten {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.text-konten {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.footer-konten {
+  background-color: #e3e3e3;
+  margin-top: 10px;
+  border-radius: 8px;
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.foto-bunder {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.biodata- {
+  border: 0px solid;
+  width: 200px;
+}
+
+.owner {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-weight: 550;
+}
+
+.pekerjaan {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.border- {
+  border: 0px solid;
+  width: 40px;
+}
+
+.benefit-a {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 50px;
+  text-align: justify;
+  font-weight: 600;
+  font-size: small;
+}
+
+.your {
+  font-size: small;
+
+}
+
+table {
+  border: 0px solid;
+  width: 300px;
+  margin-left: 15px;
+
+}
+
+.nomer {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 30px;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  margin-bottom: ;
+}
+
+.contact {
+  padding-left: 10px;
+  padding-top: 5px;
+  border: 0px solid #333;
+  width: 250px;
+  height: 400px;
+  border-radius: 8px;
+  background-color: #e3e3e3;
+
+}
+
+.contact-us {
+  padding-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+.contact-ket {
+  font-size: smaller;
+  padding-left: 5px;
+  padding-right: 15px;
+  margin-top: 1px;
+  text-align: justify;
+  padding-top: 1px;
+  padding-bottom: 50px;
+}
+
+.biodata {
+  margin-top: 10px;
+  margin-bottom: 1px;
+  padding-left: 5px;
+  font-size: small;
+  font-weight: 550;
+}
+
+.input {
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 3px solid #ccc;
+}
+
+.select {
+  color: #959393;
+  width: 245px;
+  height: 40px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  border-color: #cecdcd;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+button {
+  background-color: #000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 240px;
+  margin-top: 10px;
+}
+
+.our {
+  width: 800px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 0 auto;
+  border: 0px solid #959393;
+  border-radius: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 30pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+
+}
 
 
-  .form {
-    width: 300px;
-    margin-top: 5px;
 
-  }
+footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+.form {
+  width: 300px;
+  margin-top: 5px;
+
+}
