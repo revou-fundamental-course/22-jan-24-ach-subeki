@@ -13,6 +13,7 @@
 body {
   background-color: #ccc;
   margin-top: 10px;
+  font-family: sans-serif;
 }
 
 .border {
@@ -317,8 +318,8 @@ footer {
     display: flex;
     justify-content: center;
     width: 800px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   
 }
 .ngisor-a {
