@@ -1,6 +1,6 @@
 body    {
     font-family: sans-serif;
-    width: 1000px;
+   
     margin: 0 auto;
     margin-top: 10px;
     border: 1px solid #c2c2c2;
@@ -8,17 +8,16 @@ body    {
 }
 
 header {
-    width: 100%;
     height: 50px;
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 0px;
   }
   
   .logo {
     height: 40px;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 10px;
     padding-right: 0px;
   }
@@ -27,47 +26,42 @@ header {
     padding-left: 150px;
 }
   
-  
-  .nav {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    padding-left: 0px;
-    height: 20px;
-    color: #333;
- }
-  
-  .nav-btn- {
-    height: 20px;
-    border: 1pt solid #333;
-    padding: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-  }
-  
-  .home {
-    height: 20px;
-    border: 1px solid #333;
-    padding: 10px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-  }
-  .call-us {
-    height: 20px;
-    border: 1px solid #333;
-    padding: 10px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-  }
+ .menu {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  padding-left: 0px;
+}
+.nav-btn {
+  width: 100px;
+  height: 40px;
+  color: #7f7f7f;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 0px;
+}
+.nav-btn-home {
+  width: 100px;
+  height: 40px;
+  color: #7f7f7f;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.nav-btn-us {
+  width: 100px;
+  height: 40px;
+  color: #7f7f7f;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
   a {
     
   }
