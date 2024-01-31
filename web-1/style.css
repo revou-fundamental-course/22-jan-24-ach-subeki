@@ -1,6 +1,7 @@
-body  {
+body {
   background-color: #008CBA;
 }
+
 .body- {
   font-family: sans-serif;
   width: 1200px;
@@ -9,13 +10,16 @@ body  {
   margin: 0 auto;
   background-color: #fff;
 }
+
 .s1 {
   margin-left: 15px;
   font-size: larger;
 }
-h1  {
+
+h1 {
   margin-bottom: 0px;
 }
+
 p {
   margin-top: 0px;
 }
@@ -47,11 +51,13 @@ header {
   display: flex;
   align-items: center;
 }
+
 .nav-btn>button:hover {
   background-color: rgb(0, 87, 180);
 
 }
-.btn-a  {
+
+.btn-a {
   width: 100px;
   height: 30px;
   border: 1px solid;
@@ -61,7 +67,8 @@ header {
   transition: 0.3s background-color ease-out;
   background-color: rgb(0, 179, 244);
 }
-.btn-b  {
+
+.btn-b {
   border: 1px solid;
   width: 100px;
   height: 30px;
@@ -69,9 +76,10 @@ header {
   cursor: pointer;
   transition: 0.3s background-color ease-out;
   background-color: rgb(0, 179, 244);
- 
+
 }
-.btn-c  {
+
+.btn-c {
   width: 100px;
   height: 30px;
   border: 1px solid;
@@ -81,6 +89,7 @@ header {
   transition: 0.3s background-color ease-out;
   background-color: rgb(0, 179, 244);
 }
+
 .submit {
   border: 1px solid;
   width: 200px;
@@ -91,10 +100,13 @@ header {
   background-color: rgb(0, 179, 244);
   border-radius: 5px;
 }
+
 .submit-div {
-  display: flex; justify-content: flex-end;
-  
+  display: flex;
+  justify-content: flex-end;
+
 }
+
 .submit-div>button:hover {
   background-color: rgb(0, 87, 180);
 
@@ -118,7 +130,7 @@ hr {
   padding: 15px;
   border: 1px solid rgb(228, 228, 228);
   border-radius: 5px;
-  
+
 }
 
 .form-group {
@@ -127,6 +139,7 @@ hr {
   align-items: center;
   margin-bottom: 10px;
 }
+
 .form-group-a {
   display: flex;
   flex-direction: row;
@@ -153,7 +166,8 @@ table {
   margin-right: 15px;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
@@ -162,7 +176,8 @@ th, td {
 th {
   background-color: #f2f2f2;
 }
-footer  {
+
+footer {
   margin: 30px;
   display: flex;
   justify-content: end;

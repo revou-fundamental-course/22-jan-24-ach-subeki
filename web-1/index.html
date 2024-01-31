@@ -10,80 +10,82 @@
 
 <body>
   <div class="body-">
-  <header class="navbar">
-    <img class="logo" src="logoid.png" alt="Logo">
-    <div class="nav-btn">
-      <button class="btn-a"><a style="text-decoration: none; color: #fff;" href="/22-jan-24-ach-subeki/index.html">Home</a></button>
-      <button class="btn-b">My Profile</button>
-      <button class="btn-b">Portofolio</button>
-      <button class="btn-c">Call Us</button>
-    </div>
-  </header>
-  <hr style="margin-top: 10px;">
-  
-  <div class="s1">
-    <h1>Form Belajar</h1>
-    <p>Ini adalah website latihan pertama</p>
-  </div>
-  <div class="form">
-    <section style="height: 300px;">
-      <div style="height: 700px;">
-        <form class="form-a">
-          <div class="form-group">
-            <label for="inputNama">Nama</label>
-            <input style="width: 195px;" type="text" id="inputNama" alt="nama">
-          </div>
-          <div class="form-group">
-            <label for="inputDate">Tanggal lahir</label>
-            <input type="date" id="inputDate">
-          </div>
-          <div class="form-group">
-            <label>Jenis kelamin</label>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Laki-laki" checked>
-              <label class="form-check-label" for="gridRadios1">Laki - laki</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Perempuan">
-              <label class="form-check-label" for="gridRadios2">Perempuan</label>
-            </div>
-          </div>
-          <div class="form-group-a">
-            <label for="inputPesan">Pesan</label>
-            <textarea style="width: 195px; height: 100px;" id="inputPesan"></textarea>
-          </div>
-          <div class="submit-div">
-            <button class="submit" type="button" onclick="addRow()">Submit</button>
-          </div>
-        </form>
+    <header class="navbar">
+      <img class="logo" src="logoid.png" alt="Logo">
+      <div class="nav-btn">
+        <button class="btn-a"><a style="text-decoration: none; color: #fff;"
+            href="/22-jan-24-ach-subeki/index.html">Home</a></button>
+        <button class="btn-b">My Profile</button>
+        <button class="btn-b">Portofolio</button>
+        <button class="btn-c">Call Us</button>
       </div>
-    </section>
-    <section>
-      <table id="resultTable">
-        <thead>
-          <tr>
-            <th>Nama</th>
-            <th>Tanggal lahir</th>
-            <th>Jenis kelamin</th>
-            <th>Pesan</th>
-            <th>Profile</th>
-            <th>Aksi</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Isi tabel avaScript -->
-        </tbody>
-      </table>
-    </section>
+    </header>
+    <hr style="margin-top: 10px;">
+
+    <div class="s1">
+      <h1>Form Belajar</h1>
+      <p>Ini adalah website latihan pertama</p>
+    </div>
+    <div class="form">
+      <section style="height: 300px;">
+        <div style="height: 700px;">
+          <form class="form-a">
+            <div class="form-group">
+              <label for="inputNama">Nama</label>
+              <input style="width: 195px;" type="text" id="inputNama" alt="nama">
+            </div>
+            <div class="form-group">
+              <label for="inputDate">Tanggal lahir</label>
+              <input type="date" id="inputDate">
+            </div>
+            <div class="form-group">
+              <label>Jenis kelamin</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Laki-laki"
+                  checked>
+                <label class="form-check-label" for="gridRadios1">Laki - laki</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Perempuan">
+                <label class="form-check-label" for="gridRadios2">Perempuan</label>
+              </div>
+            </div>
+            <div class="form-group-a">
+              <label for="inputPesan">Pesan</label>
+              <textarea style="width: 195px; height: 100px;" id="inputPesan"></textarea>
+            </div>
+            <div class="submit-div">
+              <button class="submit" type="button" onclick="addRow()">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section>
+        <table id="resultTable">
+          <thead>
+            <tr>
+              <th>Nama</th>
+              <th>Tanggal lahir</th>
+              <th>Jenis kelamin</th>
+              <th>Pesan</th>
+              <th>Profile</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Isi tabel avaScript -->
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+    <hr>
+    <footer>
+      Terms of Service Privacy Policy © 2024 PT IDS
+    </footer>
   </div>
-  
-  <script src="script.js"></script>
-  <hr>
-  <footer>
-    Terms of Service Privacy Policy © 2024 PT IDS
-  </footer>
-  </div>
-  
+
 </body>
 
 </html>

@@ -276,9 +276,11 @@ a.learn-more {
   width: 240px;
   margin-top: 10px;
 }
+
 .send:hover {
   background-color: rgb(0, 87, 180);
 }
+
 .our {
   width: 800px;
   height: 100px;
@@ -293,10 +295,7 @@ a.learn-more {
   font-size: 30pt;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
-
 }
-
-
 
 footer {
   background-color: #ffffff;
@@ -313,13 +312,14 @@ footer {
 
 .ngisor {
   font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    width: 800px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
+
 .ngisor-a {
   font-weight: 700;
   height: 5px;
@@ -327,17 +327,20 @@ footer {
   margin: 0px;
 
 }
+
 .ngisor-b {
   font-size: small;
   height: px;
- 
+
 }
+
 .foto-bunder-ngisor {
   width: 40px;
   height: 40px;
   border-radius: 20px;
 
 }
+
 .table-1 {
   border: 0px solid;
   width: 250px;
