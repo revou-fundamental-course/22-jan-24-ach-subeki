@@ -5,6 +5,9 @@ body {
   border: 1px solid #c2c2c2;
   border-radius: 8px;
 }
+.s1 {
+  font-size: small;
+}
 
 header {
   width: 100%;
@@ -16,9 +19,9 @@ header {
 }
 
 .logo {
-  height: 40px;
-  margin-top: 0px;
-  margin-left: 10px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
   padding-right: 0px;
 }
 
@@ -76,27 +79,6 @@ hr {
 
 }
 
-.form-a {
-  padding-top: 10px;
-  border: 0px solid;
-  border-radius: 8px;
-  display: flex;
-  width: 420px;
-  height: 300px;
-  padding: 10;
-  display: flex;
-  justify-content: center;
-  background-color: #d6d6d6;
-
-}
-
-.form-a1 {
-  width: 120px;
-}
-
-.form-a2 {
-  width: 10px;
-}
 
 .btn {
   width: 270px;
@@ -106,4 +88,37 @@ hr {
   border: none;
   cursor: pointer;
   border-radius: 8px;
+}
+.form-a {
+  max-width: 300px;
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #eaeaea;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-group-a {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+label {
+  flex: 1;
+}
+
+input[type="email"],
+input[type="date"] {
+  flex: 2;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
 }
