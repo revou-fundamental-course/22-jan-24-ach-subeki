@@ -90,11 +90,11 @@ hr {
   border-radius: 8px;
 }
 .form-a {
-  max-width: 300px;
-  border: 1px solid;
-  padding: 20px;
-  border-radius: 8px;
-  background-color: #eaeaea;
+  max-width: 310px;
+  background-color: #c2c2c2;
+  padding: 15px;
+  border-radius: 5px;
+ 
 }
 
 .form-group {
@@ -119,6 +119,21 @@ input[type="date"] {
   width: 100%;
 }
 
-input[type="checkbox"] {
+input [type="checkbox"] {
   margin-right: 5px;
+}
+/* CSS untuk garis pada tabel */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
 }

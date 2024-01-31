@@ -23,43 +23,87 @@
     <h2>Form Belajar</h2>
     <p>Ini adalah website latihan pertama</p>
   </div>
-  <section style="height: 300px;">
-    <div style="height: 700px;">
-      <form class="form-a">
-        <div class="form-group">
-          <label for="inputEmail">Email</label>
-          <input type="email" class="form-control" id="inputEmail">
-        </div>
-        <div class="form-group">
-          <label for="inputPassword">Tanggal lahir</label>
-          <input type="date" class="form-control" id="inputPassword">
-        </div>
-        <div class="form-group">
-          <label>Jenis kelamin</label>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-            <label class="form-check-label" for="gridRadios1">Laki - laki</label>
+  <div>
+    <section style="height: 300px;">
+      <div style="height: 700px;">
+        <form class="form-a">
+          <div class="form-group">
+            <label for="inputNama">Nama</label>
+            <input style="width: 200px;" type="text" class="form-control" id="inputNama" alt="nama">
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-            <label class="form-check-label" for="gridRadios2">Perempuan</label>
+          <div class="form-group">
+            <label for="inputDate">Tanggal lahir</label>
+            <input type="date" class="form-control" id="inputDate">
           </div>
-        </div>
-        <div class="form-group-a">
-          <label for="inputEmail">Pesan</label>
-          <textarea style="width: 200px; height: 100px;" name="" id=""></textarea>
-        </div>
-        <div style="display: flex; justify-content: flex-end;"> <button style="width: 206px;" type="submit">Submit</button></div>
-    </div>
-    <div>
-
-      </form>
-  </section>
-  <section>
-
-  </section>
+          <div class="form-group">
+            <label>Jenis kelamin</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Laki-laki" checked>
+              <label class="form-check-label" for="gridRadios1">Laki - laki</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Perempuan">
+              <label class="form-check-label" for="gridRadios2">Perempuan</label>
+            </div>
+          </div>
+          <div class="form-group-a">
+            <label for="inputPesan">Pesan</label>
+            <textarea style="width: 200px; height: 100px;" id="inputPesan"></textarea>
+          </div>
+          <div style="display: flex; justify-content: flex-end;"> <button style="width: 206px;" type="button" onclick="addRow()">Submit</button></div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <table id="resultTable">
+        <thead>
+          <tr>
+            <th>Nama</th>
+            <th>Tanggal lahir</th>
+            <th>Jenis kelamin</th>
+            <th>Pesan</th>
+            <th>Profile</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Isi tabel avaScript -->
+        </tbody>
+      </table>
+    </section>
   </div>
-
+  
+  <script>
+    function addRow() {
+      var name = document.getElementById("inputNama").value;
+      var dateOfBirth = document.getElementById("inputDate").value;
+      var gender = document.querySelector('input[name="gridRadios"]:checked').value;
+      var message = document.getElementById("inputPesan").value;
+  
+      var table = document.getElementById("resultTable").getElementsByTagName('tbody')[0];
+      var newRow = table.insertRow(table.rows.length);
+  
+      var cell1 = newRow.insertCell(0);
+      var cell2 = newRow.insertCell(1);
+      var cell3 = newRow.insertCell(2);
+      var cell4 = newRow.insertCell(3);
+      var cell5 = newRow.insertCell(4);
+      var cell6 = newRow.insertCell(5);
+  
+      cell1.innerHTML = name;
+      cell2.innerHTML = dateOfBirth;
+      cell3.innerHTML = gender;
+      cell4.innerHTML = message;
+      cell5.innerHTML = '<a href="#">Klik link ini</a>';
+      cell6.innerHTML = '<button onclick="deleteRow(this)">Hapus</button>';
+    }
+  
+    function deleteRow(btn) {
+      var row = btn.parentNode.parentNode;
+      row.parentNode.removeChild(row);
+    }
+  </script>
+  
 </body>
 
 </html>
