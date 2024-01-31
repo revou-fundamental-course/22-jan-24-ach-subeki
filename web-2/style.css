@@ -101,16 +101,6 @@ a.learn-more {
   padding: 50px 0;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
 .center {
   display: flex;
   justify-content: space-between;
@@ -278,14 +268,17 @@ li {
 }
 
 .send {
-  background-color: #000;
+  background-color: rgb(13, 156, 208);
   color: #ffffff;
   padding: 10px 20px;
+  border: none;
   border-radius: 5px;
   width: 240px;
   margin-top: 10px;
 }
-
+.send:hover {
+  background-color: rgb(0, 87, 180);
+}
 .our {
   width: 800px;
   height: 100px;

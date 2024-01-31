@@ -36,12 +36,6 @@ header {
   padding-right: 0px;
 }
 
-.search {
-  padding: 10px;
-  padding-left: 150px;
-}
-
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -53,8 +47,8 @@ header {
   display: flex;
   align-items: center;
 }
-.nav-btn button:hover {
-  background-color: white;
+.nav-btn>button:hover {
+  background-color: rgb(0, 87, 180);
 
 }
 .btn-a  {
@@ -62,11 +56,19 @@ header {
   height: 30px;
   border: 1px solid;
   border-radius: 5px 0px 0px 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s background-color ease-out;
+  background-color: rgb(0, 179, 244);
 }
 .btn-b  {
   border: 1px solid;
   width: 100px;
   height: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s background-color ease-out;
+  background-color: rgb(0, 179, 244);
  
 }
 .btn-c  {
@@ -74,32 +76,35 @@ header {
   height: 30px;
   border: 1px solid;
   border-radius: 0px 5px 5px 0px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s background-color ease-out;
+  background-color: rgb(0, 179, 244);
 }
+.submit {
+  border: 1px solid;
+  width: 200px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s background-color ease-out;
+  background-color: rgb(0, 179, 244);
+  border-radius: 5px;
+}
+.submit-div {
+  display: flex; justify-content: flex-end;
+  
+}
+.submit-div>button:hover {
+  background-color: rgb(0, 87, 180);
+
+}
+
 
 hr {
   margin-top: 0px;
 }
 
-
-
-.label-a {
-  margin-right: 20px;
-  border: 0px solid;
-  display: flex;
-  justify-content: space-between;
-
-}
-
-
-.btn {
-  width: 270px;
-  height: 30px;
-  background-color: #008CBA;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-}
 
 .form {
   display: flex;
@@ -109,10 +114,11 @@ hr {
 
 .form-a {
   max-width: 310px;
-  background-color: #c2c2c2;
+  background-color: #f2f2f2;
   padding: 15px;
+  border: 1px solid rgb(228, 228, 228);
   border-radius: 5px;
- 
+  
 }
 
 .form-group {
