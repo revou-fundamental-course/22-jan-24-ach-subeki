@@ -1,12 +1,23 @@
-body {
+body  {
+  background-color: #008CBA;
+}
+.body- {
   font-family: sans-serif;
-
-  margin-top: 10px;
+  width: 1200px;
   border: 1px solid #c2c2c2;
   border-radius: 8px;
+  margin: 0 auto;
+  background-color: #fff;
 }
 .s1 {
-  font-size: small;
+  margin-left: 15px;
+  font-size: larger;
+}
+h1  {
+  margin-bottom: 0px;
+}
+p {
+  margin-top: 0px;
 }
 
 header {
@@ -89,9 +100,11 @@ hr {
   cursor: pointer;
   border-radius: 8px;
 }
+
 .form {
   display: flex;
   justify-content: space-between;
+  margin-left: 15px;
 }
 
 .form-a {
@@ -131,6 +144,7 @@ input [type="checkbox"] {
 table {
   border-collapse: collapse;
   width: 800px;
+  margin-right: 15px;
 }
 
 th, td {
